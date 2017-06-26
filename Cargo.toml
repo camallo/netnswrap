@@ -1,0 +1,13 @@
+[package]
+name = "netnswrap"
+version = "0.1.0"
+authors = ["Luca Bruno <lucab@debian.org>"]
+description = "A netns-aware wrapper compatible with sd_listen_fds(3) protocol"
+
+
+[dependencies]
+clap = "2.25"
+error-chain = { version = "0.10", default-features = false }
+libc = "0.2"
+nix = "0.8"
+void = "1"
